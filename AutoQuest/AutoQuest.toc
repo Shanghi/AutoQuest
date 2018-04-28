@@ -1,0 +1,10 @@
+## Interface: 20400
+## Title: AutoQuest
+## Author: Pyralis
+## Version: 1.3
+## Notes: Automate some quest accepting and completing.
+## SavedVariablesPerCharacter: AutoQuestSave
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+AutoQuest.lua

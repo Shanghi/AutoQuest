@@ -1,0 +1,5 @@
+1.3 (4/24/18):
+	* Added missing repeatable and daily quests, and set risky ones (like turning in battleground marks for honor or paying gold) to have automation disabled by default.
+	* Added command: "/autoquest repeat on/off" - toggle if you want to take repeatable quests.
+	* Added command: "/autoquest toggle <quest name>" - toggle if a specific quest should be automated, so you can turn off unwanted dailies and turn on risky ones that are off by default.
+	* Changed how automation works so that there's a chance to do multiple things at once instead of always one at a time (like accept 2 or 3 quests at the same time).
