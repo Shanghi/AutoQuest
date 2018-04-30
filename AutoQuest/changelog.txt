@@ -1,3 +1,6 @@
+1.4 (4/29/18):
+	* Added handling completing quests that don't show as being completed in the quest log.
+
 1.3 (4/24/18):
 	* Added missing repeatable and daily quests, and set risky ones (like turning in battleground marks for honor or paying gold) to have automation disabled by default.
 	* Added command: "/autoquest repeat on/off" - toggle if you want to take repeatable quests.
