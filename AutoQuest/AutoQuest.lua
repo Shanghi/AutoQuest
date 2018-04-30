@@ -499,7 +499,7 @@ local function IsQuestComplete(name, level)
 	for i=1, GetNumQuestLogEntries() do
 		local title, _, _, _, _, _, complete = GetQuestLogTitle(i)
 		if title == name then
-			return (complete == 1)
+			return (complete == 1 or GetNumQuestLeaderBoards(i) == 0) -- "LeaderBoards" are objectives
 		end
 	end
 	return nil
