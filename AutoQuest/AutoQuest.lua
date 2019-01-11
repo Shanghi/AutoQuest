@@ -614,6 +614,9 @@ eventFrame:SetScript("OnEvent", function(self, event)
 		if AutoQuestSave.autoRepeat   == nil then AutoQuestSave.autoRepeat   = true  end
 		if AutoQuestSave.autoComplete == nil then AutoQuestSave.autoComplete = true  end
 		if AutoQuestSave.overrideList == nil then AutoQuestSave.overrideList = {}    end
+
+		AutoQuestSave.overrideList["Allegiance to the Aldor"] = false
+		AutoQuestSave.overrideList["Allegiance to the Scryers"] = false
 		return
 	end
 end)
